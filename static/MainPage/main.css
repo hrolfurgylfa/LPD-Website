@@ -9,14 +9,21 @@
 .header {
     grid-area: header;
 }
-.nav_bar {
-    grid-area: nav_bar;
-}
 .content {
     grid-area: content;
 }
 .footer {
     grid-area: footer;
+}
+
+.logo {
+    grid-area: logo;
+}
+.title {
+    grid-area: title;
+}
+.nav_bar {
+    grid-area: nav_bar;
 }
 
 .middle {
@@ -35,9 +42,15 @@ body {
     grid-gap: 0;
     grid-template-areas:
     "header"
-    "nav_bar"
     "content"
     "footer";
+}
+.header {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "logo title nav_bar";
 }
 .content {
     display: grid;
@@ -55,8 +68,15 @@ body {
     padding: 0;
     margin: 0;
 }
-.title {
+.header {
     text-align: center;
+}
+.title a {
+    color: black;
+    text-decoration: none;
+}
+.nav_bar .current {
+    background-color: aqua;
 }
 .discord_embed iframe {
     margin: 2.5%;
@@ -65,6 +85,13 @@ body {
 }
 .twitter_embed {
     margin: .5em;
+}
+/*#########################
+    Header
+  #########################*/
+.logo {
+    width: 150px;
+    height: auto;
 }
 
 /*#########################

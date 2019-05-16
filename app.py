@@ -15,6 +15,10 @@ def MainPage():
 def login():
     return "<h1>Login website</h1>"
 
+@route("/about_us")
+def about_us():
+    return template("about_us/index.tpl")
+
 #  ========================================
 #  Annað
 #  ========================================
