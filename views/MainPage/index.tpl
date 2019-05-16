@@ -26,7 +26,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae libero vel quisquam eos dignissimos! Enim earum perferendis, omnis vel voluptatem nemo praesentium consectetur in esse obcaecati! Accusantium reiciendis deserunt pariatur.</p>
         </section>
         <section class="discord_embed">
-            <iframe src="https://discordapp.com/widget?id=446345091230072834&theme=light" allowtransparency="true" frameborder="0"></iframe>
+            <iframe src="https://discordapp.com/widget?id=566315650864381953&theme=light" allowtransparency="true" frameborder="0"></iframe>
         </section>
         <section class="twitter_embed">
             <a class="twitter-timeline" data-lang="en" data-dnt="true" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/LPD_vrchat?ref_src=twsrc%5Etfw">Tweets by LPD_vrchat</a>
