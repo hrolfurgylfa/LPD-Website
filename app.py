@@ -11,6 +11,9 @@ from bottle import *
 def MainPage():
     return template("MainPage/index.tpl")
 
+@route("/login")
+def login():
+    return "<h1>Login website</h1>"
 
 #  ========================================
 #  Annað
