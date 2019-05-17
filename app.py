@@ -30,7 +30,7 @@ def static_skrar(skra):
 #404 ERROR síða----------404 ERROR síða----------404 ERROR síða----------404 ERROR síða----------404 ERROR síða
 @error(404)
 def notFound(error):
-    return '<h2 style="color:red;text-align: center;">Þessi síða finnst ekki</h2>'
+    return '<h2 style="color:red;text-align: center;">This page does not exist</h2>'
 
 # ##########################################################
 # Keyra Bottle
