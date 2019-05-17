@@ -18,13 +18,13 @@
     <hr>
     <main class="login_box">
         <section class="window_bar">LPD - Suspect Database</section>
-        <section class="login_fields">
+        <form action="/get_cookie" method="post" class="login_fields">
             <p class="login_text">Please login below to access this LPD computer.</p>
             <p class="input_text">Password:</p>
             <input name="password" type="password">
             <br>
-            <input class="login_btn" type="button" value="login">
-        </section>
+            <input class="login_btn" type="submit" value="login">
+        </form>
     </main>
     <footer class="footer">
         <hr class="bottom_line">
