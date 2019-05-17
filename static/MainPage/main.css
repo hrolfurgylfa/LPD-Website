@@ -126,3 +126,63 @@ body {
     background: lightgray;
     border-radius: .25em;
 }
+
+/*#########################
+    Mobile
+  #########################*/
+
+/*  ========================================
+  Viðmið - breakpoints 30em = 480px + 
+  ========================================*/
+@media screen and (max-width: 30em) {
+
+}
+  /*  ========================================
+    Viðmið - breakpoints 37.5em = 600px + 
+    ========================================*/
+@media screen and (max-width: 37.5em) {
+    /* ====== GRID Template Areas ===== */
+    .header {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "logo"
+        "title"
+        "nav_bar";
+    }
+    .content {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "middle"
+        "discord_embed"
+        "twitter_embed";
+    }
+
+    /* ====== Logo ===== */
+    .logo {
+        margin: .5em auto;
+        width: 90%;
+    }
+
+    /* ====== Nav ===== */
+    .nav_bar {
+        margin: auto;
+    }
+}
+  /* ========================================
+    Viðmið - breakpoints 48em = 760px +
+    ======================================== */
+@media screen and (max-width: 48em) {  
+
+}
+  /* ========================================
+    Viðmið - breakpoints 60em = 960px +
+    ======================================== */
+@media screen and (max-width: 60em) {
+
+}
+  /* ========================================
+    Viðmið - breakpoints 80em = 1600px +
+    ======================================== */
+@media screen and (max-width: 80em) {
+
+}
