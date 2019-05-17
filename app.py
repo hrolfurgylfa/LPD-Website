@@ -13,7 +13,7 @@ def MainPage():
 
 @route("/login")
 def login():
-    return "<h1>Login website</h1>"
+    return template("login/index.tpl")
 
 @route("/about_us")
 def about_us():
