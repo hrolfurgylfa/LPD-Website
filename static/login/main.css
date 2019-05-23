@@ -43,6 +43,21 @@ hr {
     width: 300px;
     height: auto;
 }
+.logout_btn {
+    display: flex;
+    float: right;
+    margin-right: 10px;
+    padding: 5px;
+
+    color: white;
+    background: black;
+    text-decoration: none;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+
+    border: white ridge 5px;
+}
 
 /*#########################
     Main login
